@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes the full height */
+}
+
+/* Header Styles */
+header {
+    background: #fff; /* White background */
+    text-align: center;
+    padding: 10px; /* Decreased padding for smaller height */
+}
+
+.logo {
+    width: 200px; /* Set logo width (adjust as needed) */
+    height: auto; /* Maintain aspect ratio */
+}
+
+header h1 {
+    margin-top: 10px; /* Add margin for separation from the logo */
+}
+
+/* Navigation Styles */
+nav {
+    background: #7c7a7a; /* A slightly different background for navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Section Styles */
+main {
+    flex: 1; /* Takes up remaining space */
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #5d595ad2 /* A bright background for the hero section */
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Featured Products Styles */
+.featured-products {
+    margin-top: 30px;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 30%; /* Three products in a row */
+    text-align: center;
+    margin: 0 10px;
+}
+
+.product img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
